@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoMarket</title>
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <main>
+    <header class="header">
+        <div>
+            <nav class="navbar">
+                <img class="logo" src="../img/logo-eco-market-100x100.png">
+                    <ul>
+                        <a href="../index.html" class="boton_inicio">Home</a>
+                        <a href="../views/ofertas.html" class="boton_inicio">Ofertas</a>
+                        <a href="../views/productos.html" class="boton_inicio">Productos</a>
+                        <a href="../views/Categorias.html" class="boton_inicio">Categorias</a>
+                        <a href="../views/contacto.html" class="boton_inicio">Contacto</a>
+                        <a href="../views/comentarios.html" class="boton_inicio">Comentario</a>
+                    </ul>
+                    <input class="boton_busqueda" type="search" placeholder="Buscador ">
+            </nav>
+        </div>
+    </header>
+    <section class="seccion-newsletter">
+    <div class="contenedor-newsletter">
+        <div class="newsletter-header">
+            <h3>¡Sé parte de la comunidad EcoMarket!</h3>
+            <p>Suscríbete para recibir consejos de vida saludable, acceso anticipado a nuestras ofertas y contenido exclusivo directamente en tu bandeja de entrada.</p>
+        </div>
+        
+        <form action="#" method="post" class="formulario-newsletter">
+            <div class="campos-flex">
+                <div class="campo-grupo">
+                    <label for="nombre-newsletter">Nombre:</label>
+                    <input type="text" id="nombre-newsletter" name="nombre" placeholder="Tu nombre" required>
+                </div>
+                <div class="campo-grupo">
+                    <label for="email-newsletter">Correo electrónico:</label>
+                    <input type="email" id="email-newsletter" name="email" placeholder="nombre@ejemplo.com" required>
+                </div>
+            </div>
+
+            <div class="campo-grupo">
+                <label>¿Qué te interesa recibir?</label>
+                <select name="intereses">
+                    <option value="todo">Todas las novedades</option>
+                    <option value="ofertas">Ofertas y Descuentos</option>
+                    <option value="consejos">Consejos Saludables</option>
+                </select>
+            </div>
+            <div class="aviso-legal">
+                <input type="checkbox" id="privacidad" name="privacidad" required>
+                <label for="privacidad">
+                    He leído y acepto la <a href="#">Política de Privacidad</a>. Acepto recibir comunicaciones comerciales de EcoMarket.
+                </label>
+            </div>
+
+            <button href="/index.html" type="submit" class="boton-suscripcion">¡Quiero unirme ahora!</button>
+        </form>
+    </div>
+</section>
+    </header>
+    </main>
+   
+        <footer id="abajo-pagina" class="abajo-pagina" >
+            <div class="contenedor-footer">
+                <h3 class="centrar-texto">NUESTRAS REDES SOCIALES</h3>
+                <p class="centrar-texto">Conose mas de nosotros en nuestras redes sociales</p>
+            
+                <div class="redes-sociales">
+                    <a class="alinear_al_centro" href="https://www.facebook.com/ecomarketsaludable" target="_blank" rel="noopener">
+                        <img src="../img/logofb-removebg-preview.png" alt=""></a>
+                    <a class="alinear_al_centro" href="https://www.instagram.com/ecomarketsaludable/" target="_blank" rel="noopener">
+                        <img src="../img/il_fullxfull.5312137777_qj67-removebg-preview.png" alt=""></a>
+                    <a class="alinear_al_centro" href="https://www.tiktok.com/@ecomarket.official" target="_blank" rel="noopener">
+                        <img src="../img/logotiktok-removebg-preview.png" alt=""></a>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>
